@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7E8AF4E5-B92E-47FF-A6CB-53A220CB7FA6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28A691BF-E00C-4349-A1A8-DE8BF0FC595D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hw11/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "28A691BF-E00C-4349-A1A8-DE8BF0FC595D - a24b6c2342b95aee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hw11.ViewController.label.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "hw11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/hw11/hw11/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "28A691BF-E00C-4349-A1A8-DE8BF0FC595D - 6ea2ec196a9ee61a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hw11.ViewController.label.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "hw11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/hw11/hw11/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "28A691BF-E00C-4349-A1A8-DE8BF0FC595D - 85413825797ae5e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hw11.ViewController.label.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "hw11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/hw11/hw11/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "28A691BF-E00C-4349-A1A8-DE8BF0FC595D - c0c499c302641999"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hw11.ViewController.label.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "hw11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/hw11/hw11/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "28A691BF-E00C-4349-A1A8-DE8BF0FC595D - 4bd05b2b3d585b34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hw11.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; hw11.ViewController"
+                  moduleName = "hw11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/hw11/hw11/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "28A691BF-E00C-4349-A1A8-DE8BF0FC595D - 7c9133f84615ff37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hw11.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;hw11.ViewController&gt;"
+                  moduleName = "hw11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/hw11/hw11/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

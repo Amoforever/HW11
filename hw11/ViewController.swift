@@ -7,10 +7,36 @@
 
 import UIKit
 
+extension UITextField {
+    func setLeftIcon(_ image: UIImage) {
+        let iconView = UIImageView(frame: CGRect(x: 30, y: 5, width: 20, height: 20))
+        iconView.image = image
+        let iconConteinerView: UIView = UIView(frame: CGRect(x: 20, y: 0, width: 30, height: 30))
+        iconConteinerView.addSubview(iconView)
+        leftView = iconConteinerView
+        leftViewMode = .always
+    }
+}
+
+extension UITextField {
+    func setRightIcon(_ image: UIImage) {
+        let iconView = UIImageView(frame: CGRect(x: -30, y: 5, width: 20, height: 20))
+        iconView.image = image
+        let iconConteinerView: UIView = UIView(frame: CGRect(x: 20, y: 0, width: 30, height: 30))
+        iconConteinerView.addSubview(iconView)
+        rightView = iconConteinerView
+        rightViewMode = .whileEditing
+    }
+}
 class ViewController: UIViewController {
     
+    @IBOutlet weak var textField: UITextField!
+   
     @IBOutlet weak var label: UILabel!
     
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var secondImageView: UIImageView!
     private lazy var gradient: CAGradientLayer = {
             let gradient = CAGradientLayer()
             gradient.frame = view.bounds
@@ -23,8 +49,8 @@ class ViewController: UIViewController {
         view.layer.insertSublayer(gradient, at: 0)
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
-
 
 }
 
