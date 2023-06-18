@@ -8,6 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var label: UILabel!
+    
     private lazy var gradient: CAGradientLayer = {
             let gradient = CAGradientLayer()
             gradient.frame = view.bounds
