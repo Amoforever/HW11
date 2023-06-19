@@ -47,9 +47,17 @@
                                     <constraint firstAttribute="height" constant="50" id="qFr-lt-MZf"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Login">
+                                <buttonConfiguration key="configuration" style="plain" title="Login" cornerStyle="fixed">
                                     <color key="baseForegroundColor" systemColor="systemBlueColor"/>
                                 </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6In-Xf-k3n">
+                                <rect key="frame" x="50" y="566" width="293" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SPB-hw-Ffn"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Forgot your password?"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -57,24 +65,29 @@
                         <constraints>
                             <constraint firstItem="8Ty-eJ-JtB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="1I2-QN-AoK"/>
                             <constraint firstItem="ukM-aY-xg8" firstAttribute="centerX" secondItem="CTF-RC-7SE" secondAttribute="centerX" id="5Lf-ak-cMO"/>
+                            <constraint firstItem="6In-Xf-k3n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IPN-Hj-5Hx"/>
                             <constraint firstItem="Del-8s-aDU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="IUe-d6-eCL"/>
                             <constraint firstItem="8Ty-eJ-JtB" firstAttribute="top" secondItem="Del-8s-aDU" secondAttribute="bottom" constant="40" id="MzS-cq-e7x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6In-Xf-k3n" secondAttribute="trailing" constant="50" id="PDi-97-JZb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CTF-RC-7SE" secondAttribute="bottom" constant="609" id="ahr-dm-VxT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Del-8s-aDU" secondAttribute="trailing" constant="50" id="aoB-8E-Kkk"/>
                             <constraint firstItem="ukM-aY-xg8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="c96-uv-RLx"/>
                             <constraint firstItem="Del-8s-aDU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cEc-1t-vm2"/>
                             <constraint firstItem="ukM-aY-xg8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="267" id="eGc-Iw-pbc"/>
                             <constraint firstItem="Del-8s-aDU" firstAttribute="top" secondItem="ukM-aY-xg8" secondAttribute="bottom" constant="40" id="gdp-i8-CIX"/>
+                            <constraint firstItem="6In-Xf-k3n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="jhw-0r-hbu"/>
                             <constraint firstItem="CTF-RC-7SE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oH9-WF-zr3"/>
                             <constraint firstItem="8Ty-eJ-JtB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pDr-QM-bKq"/>
                             <constraint firstItem="ukM-aY-xg8" firstAttribute="top" secondItem="CTF-RC-7SE" secondAttribute="bottom" constant="100" id="rIO-Hn-qFx"/>
                             <constraint firstItem="CTF-RC-7SE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="s1d-wy-Cc2"/>
+                            <constraint firstItem="6In-Xf-k3n" firstAttribute="top" secondItem="8Ty-eJ-JtB" secondAttribute="bottom" constant="10" id="s3a-He-LWC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Ty-eJ-JtB" secondAttribute="trailing" constant="50" id="xH4-Ft-44Q"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="button" destination="8Ty-eJ-JtB" id="NRJ-hn-2wu"/>
                         <outlet property="label" destination="CTF-RC-7SE" id="a37-92-oXW"/>
+                        <outlet property="secondButton" destination="6In-Xf-k3n" id="BSk-Cp-Obm"/>
                         <outlet property="secondTextField" destination="Del-8s-aDU" id="0DZ-1I-GtJ"/>
                         <outlet property="textField" destination="ukM-aY-xg8" id="iFB-bC-7hZ"/>
                     </connections>

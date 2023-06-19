@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var button: UIButton!
     
+    @IBOutlet weak var secondButton: UIButton!
     func addLeftImageTo(textField: UITextField, andImage img: UIImage) {
         let leftImageView = UIImageView(frame: CGRect(x: 0.0, y: 0.0, width: img.size.width, height: img.size.height))
         leftImageView.image = img
@@ -53,6 +54,10 @@ class ViewController: UIViewController {
         button.layer.shadowRadius = 10
         button.layer.shouldRasterize = true
         button.layer.rasterizationScale = UIScreen.main.scale
+        
+        button.layer.cornerRadius = 25
+        
+        secondButton.tintColor = .white
     }
 
 }
